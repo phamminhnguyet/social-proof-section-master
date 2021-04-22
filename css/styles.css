@@ -1,0 +1,199 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-color: white;
+    background-position: -10px -100px, right -450px bottom -450px;
+    font-size: 15px;
+}
+
+.content {
+    width: 1100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.overview {
+    float: left;
+    width: 100%;
+}
+
+.intro {
+    width: 420px;
+    float: left;
+}
+
+.intro h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.intro p {
+    font-size: 14px;
+    color: hsl(303, 10%, 53%);
+}
+
+.ratings {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    float: left;
+    margin-top: 50px;
+}
+
+.stars {
+    color: orange;
+    display: inline-block;
+}
+
+.rate {
+    width: 440px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 13px 0 10px 30px;
+    box-sizing: border-box;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+
+.reviews {
+    margin-left: 140px;
+}
+
+.report-guru {
+    margin: 15px 0 15px 190px;
+}
+
+.best-tech {
+    margin-left: 240px;
+}
+
+.feedbacks {
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    overflow: auto;
+    border-radius: 8px;
+    padding: 35px;
+    box-sizing: border-box;
+    float: left;
+    line-height: 1.5;
+}
+
+h4 {
+    color: white;
+    margin: 0;
+}
+
+h5 {
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+}
+
+.card p {
+    color: hsl(300, 24%, 96%);
+    font-size: 14px;
+}
+
+img {
+    border-radius: 50%;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+table {
+    margin-bottom: 25px;
+}
+
+td {
+    padding: 0;
+}
+
+.colton {
+    margin-right: 25px;
+}
+
+.irene {
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.anne {
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-position: -10px -100px, right -450px bottom -450px;
+        font-size: 15px;
+    }
+    
+    .content {
+        width: 325px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+    
+    .ratings {
+        margin-top: 50px;
+    }
+    
+    .stars, .text {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .rate {
+        width: 325px;
+        height: 75px;
+        border-radius: 5px;
+        padding: 13px 0 10px 0px;
+    }
+
+    .reviews {
+        margin-left: 0;
+    }
+    
+    .report-guru {
+        margin: 15px 0 15px 0px;
+    }
+    
+    .best-tech {
+        margin-left: 0;
+    }
+    
+    .text{
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 325px;    
+}
+}
