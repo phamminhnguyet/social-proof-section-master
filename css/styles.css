@@ -196,5 +196,18 @@ td {
 
     .card {
         width: 325px;    
-}
+    }
+
+    .colton {
+        margin-right: 0;
+    }
+    
+    .irene {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    
+    .anne {
+        margin-top: 20px;
+    }
 }
